@@ -1,5 +1,7 @@
 # Context OTEL processor
 
+Fork of https://github.com/springernature/o11y-otel-contextprocessor/ - because it cannot be used by the otel collector builder, as the go.mod is wrong.
+
 A processor to manipulate the Context Medatada in OTEL Collector. This processor allows to move resource attributes of Metrics, Logs and Traces to the context, which makes possible to use extensions like `headers_setter` dynamically.
 
 Typical use cases:
